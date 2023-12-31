@@ -1,0 +1,28 @@
+OpenAI response for Prompt: using artificial intelligence write a code to perform arithmetic operations in python 
+ *************************
+
+
+
+# Define a function to perform arithmetic operations
+def arithmetic_operation(operation, a, b):
+    if operation == "+":
+        return a + b
+    elif operation == "-":
+        return a - b
+    elif operation == "*":
+        return a * b
+    elif operation == "/":
+        return a / b
+    else:
+        return "Invalid operation"
+
+# Take input from user
+operation = input("Enter the arithmetic operation (+, -, *, /): ")
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Call the function
+
+result = arithmetic_operation(operation, num1, num2)
+
+print("The result is ", result)
